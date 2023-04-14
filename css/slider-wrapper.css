@@ -1,0 +1,9 @@
+.swiper {
+  width: 1000px;
+  height: 600px;
+}
+
+.swiper-slide-img {
+  text-align: center;
+  max-width: 100%;
+}
