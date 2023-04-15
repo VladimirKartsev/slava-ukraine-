@@ -7,29 +7,34 @@
     <title>Document</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="../css/styles.css" />
-    <link rel="stylesheet" href="../css/slider-wrapper.css" /
+    <link rel="stylesheet" href="../css/slider-wrapper.css" />
   </head>
   <body>
-    <section>
+    <section class="swiper-section">
+      <h1 class="swiper-title">Swiper</h1>
       <div class="swiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="../images/02.jpg" alt="photo" width="400" height="300" />
+            <img src="../images/02.jpg" alt="city" width="3000" height="2100" />
           </div>
           <div class="swiper-slide">
-            <img src="../images/03.jpg" alt="photo" width="400" height="300" />
+            <img src="../images/03.jpg" alt="city-sky" />
           </div>
           <div class="swiper-slide">
-            <img src="../images/04.jpg" alt="photo" width="400" height="300" />
+            <img src="../images/04.jpg" alt="city1" />
           </div>
-          <div class="swiper-pagination"></div>
+          ...
         </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
       </div>
     </section>
-
-    <script type="modal" src="../js/mein.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>
